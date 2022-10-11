@@ -1,0 +1,6 @@
+{
+    "name": "Transaction",
+    "alias": "transaction",
+    "description": "The TrustTech Transaction Module.",
+    "priority": 100
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Tax",
+    "alias": "tax",
+    "description": "The TrustTech Tax Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Tax\\Providers\\TaxServiceProvider"
+    ]
+}

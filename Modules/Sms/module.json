@@ -1,0 +1,9 @@
+{
+    "name": "Sms",
+    "alias": "sms",
+    "description": "The TrustTech Sms Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Sms\\Providers\\SmsServiceProvider"
+    ]
+}

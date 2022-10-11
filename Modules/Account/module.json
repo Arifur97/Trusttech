@@ -1,0 +1,6 @@
+{
+    "name": "Account",
+    "alias": "account",
+    "description": "The TrustTech Account Module.",
+    "priority": 100
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Address",
+    "alias": "address",
+    "description": "The TrustTech Address Module.",
+    "priority": 100
+}

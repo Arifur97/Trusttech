@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^trusttechbd\.com [NC]
+	RewriteCond %{SERVER_PORT} 80
+	RewriteRule ^(.*)$ https://trusttechbd.com/$1 [R,L]
+</IfModule>

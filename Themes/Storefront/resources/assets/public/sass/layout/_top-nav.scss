@@ -1,0 +1,126 @@
+.top-nav-wrap {
+    background-color: #3b3c94;
+    color: #fff;
+    border-bottom: 1px solid $border-color;
+}
+
+.top-nav {
+    padding: 6px 15px 0;
+
+    .icon-shake{
+        animation: icon-shake 1s ease-in-out infinite; 
+    }
+    @keyframes icon-shake {
+        0% {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(20deg);
+            -webkit-transform: rotate(20deg);
+        }
+        50% {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+        }
+        75% {
+            transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+        }
+    }
+    .top-nav-contact {
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    .top-nav-left {
+        > span {
+            display: block;
+        }
+    }
+
+    .top-nav-right-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        > li {
+            border-right: 1px solid $border-color-lite;
+            display: inline-block;
+            padding: 0 20px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+                border-right: none;
+            }
+
+            > a {
+                display: block;
+                color: #fff;
+
+                &:hover {
+                    color: $color-default;
+                    color: var(--color-primary);
+                }
+
+                > i {
+                    margin-right: 5px;
+                    color: #fff;
+                }
+            }
+
+            > i {
+                margin-right: 5px;
+                color: $color-default;
+                color: #fff;
+            }
+        }
+
+        .nice-select {
+            padding: 0 20px 0 0;
+
+            .list {
+                left: -22px;
+                min-width: 150px;
+                margin-top: 11px;
+                padding: 14px 0 11px;
+            }
+
+            .option {
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $lg) {
+    .top-nav {
+        // > .row {
+        //     flex-direction: column;
+        // }
+
+        .top-nav-left {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    }
+}
+
+
+@media screen and (max-width: $lg) {
+    .top-nav {
+        .top-nav-contact-info {
+            display: none !important;
+        }
+    }
+}

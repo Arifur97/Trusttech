@@ -1,0 +1,790 @@
+body {
+    background-color: #fff !important;
+}
+
+.build-your-pc {
+    padding: 30px 0;
+}
+
+.fz-25 {
+    font-size: 25px;
+}
+
+.pcb-w {
+    width: 200px;
+}
+
+.pcb-container {
+    border: 1px solid #C3C8EB;
+    max-width: 950px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.pcb-head {
+    background: #F9F9FC;
+    border-bottom: 1px solid #C3C8EB;
+    padding: 20px;
+    display: flex;
+}
+
+.pcb-head h4 {
+    margin: 0;
+    font-size: 18px;
+    max-width: 250px;
+    color: #666666;
+}
+
+.pcb-head .title {
+    flex: 0 0 auto;
+}
+
+.pcb-head .trusttech-logo {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pcb-head .trusttech-logo img {
+    height: 43px;
+    margin-left: 10px;
+}
+
+.pcb-head .actions {
+    flex: 1 1 auto;
+    padding-top: 0;
+}
+
+.pcb-head .actions .all-actions {
+    display: flex;
+    float: right;
+}
+
+.pcb-head .actions .action {
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+    background: none;
+    border: none;
+    color: #EF4A23;
+    height: auto;
+    line-height: normal;
+    font-weight: normal;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.pcb-head .actions .action:hover {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.pcb-head .action .action-text {
+    display: block;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #666666;
+    padding-top: 2px;
+    min-width: 40px;
+}
+
+.pcb-head .actions .action:hover .action-text {
+    color: #111;
+}
+
+.pcb-head .actions .pcb-button {
+    margin-left: 20px;
+}
+
+.pcb-inner-content {
+    margin: 25px auto;
+    max-width: 800px;
+}
+
+.pcb-top-content {
+    display: flex;
+    margin: 0 0 30px;
+}
+
+.pcb-top-content>div {
+    flex: 1 1 50%;
+}
+
+.pcb-top-content .right {
+    text-align: right;
+}
+
+
+.pcb-top-content h5 {
+    font-size: 15px;
+    color: #3749BB;
+    margin: 8px 0 12px;
+}
+
+.pcb-container .alert {
+    margin: 10px;
+}
+
+.pcb-top-content .checkbox-inline {
+    color: #808996;
+    font-size: 13px;
+}
+
+.pcb-top-content .total-amount {
+    display: inline-block;
+    border: 1px dashed #EF4A23;
+    padding: 8px 0;
+    margin-left: 10px;
+    min-width: 140px;
+    border-radius: 7px;
+    text-align: center;
+    color: #808996;
+    position: relative;
+}
+
+.betaa {
+    top: 5px;
+    right: 8px;
+    position: absolute;
+    color: #3749BB;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+
+.pcb-top-content .total-amount .amount {
+    font-size: 18px;
+    color: #111;
+    padding-bottom: 3px;
+}
+
+.pcb-top-content .total-amount.t-price .amount {
+    color: #fff;
+}
+
+.pcb-top-content .total-amount .items {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.pcb-content .content-label {
+    background: #808996;
+    color: #fff;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pcb-content .c-item {
+    display: flex;
+    padding: 15px 10px;
+    flex: 0 0 auto;
+    border-bottom: 1px solid #eee;
+}
+
+.pcb-content .c-item .img {
+    background: rgba(55, 73, 187, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    flex: 0 0 60px;
+}
+
+.pcb-content .c-item .img svg {
+    margin-top: 14px;
+}
+
+.pcb-content .c-item .img img {
+    width: 60px;
+}
+
+.pcb-content .c-item .img-ico {
+    background: url(../images/cpu.svg) no-repeat center;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.pcb-content .c-item .img-ico.cpu-cooler {
+    background-image: url(../images/cooler.svg);
+}
+
+.pcb-content .c-item .img-ico.ram---1,
+.pcb-content .c-item .img-ico.ram---2 {
+    background-image: url(../images/ram.svg);
+}
+
+.pcb-content .c-item .img-ico.storage---1,
+.pcb-content .c-item .img-ico.storage----2 {
+    background-image: url(../images/hdd.svg);
+}
+
+.pcb-content .c-item .img-ico.graphics-card {
+    background-image: url(../images/gcard.svg);
+}
+
+.pcb-content .c-item .img-ico.power-supply {
+    background-image: url(../images/psupply.svg);
+}
+
+.pcb-content .c-item .img-ico.casing {
+    background-image: url(../images/casing.svg);
+}
+
+.pcb-content .c-item .img-ico.monitor {
+    background-image: url(../images/monitor.svg);
+}
+
+.pcb-content .c-item .img-ico.keyboard {
+    background-image: url(../images/keyboard.svg);
+}
+
+.pcb-content .c-item .img-ico.mouse {
+    background-image: url(../images/mouse.svg);
+}
+
+.pcb-content .c-item .img-ico.optical-drive {
+    background-image: url(../images/cd.svg);
+}
+
+.pcb-content .c-item .img-ico.anti-virus {
+    background-image: url(../images/antivirus.svg);
+}
+
+.pcb-content .c-item .img-ico.operating-system {
+    background-image: url(../images/os.svg);
+}
+
+.pcb-content .c-item .img-ico.ups {
+    background-image: url(../images/ups.svg);
+}
+
+.pcb-content .c-item .img-ico.mother-board {
+    background-image: url(../images/mobo.svg);
+}
+
+.pcb-content .c-item .img-ico.casing-cooler {
+    background-image: url(../images/casing-cooler.svg);
+}
+
+.pcb-content .c-item .img-ico.headphone {
+    background-image: url(../images/headphone.svg);
+}
+
+.pcb-content .c-item .details {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 20px;
+}
+
+.c-item .details .component-name {
+    font-size: 12px;
+    color: #3749BB;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.c-item .details .product-watt {
+    padding-top: 8px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.c-item .details .product-watt img {
+    float: left;
+    margin-right: 5px;
+}
+
+.c-item.blank .details .component-name {
+    color: #666666;
+}
+
+.c-item .details .component-name .mark {
+    margin-left: 5px;
+    background: #808996;
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 2px;
+    font-weight: normal;
+}
+
+.c-item .details .product-name {
+    line-height: 15px;
+}
+
+.c-item .item-price {
+    margin: 10px 0;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.c-item .item-price .price {
+    flex: 1 1 auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.c-item .actions {
+    flex: 0 0 110px;
+    text-align: right;
+    padding-top: 8px;
+}
+
+.c-item.blank .details .product-name {
+    background: #F2F3F4;
+    min-height: 12px;
+    max-width: 80%;
+    margin-top: 4px;
+}
+
+
+.c-item.blank .item-price:after {
+    content: "";
+    display: block;
+    min-height: 12px;
+    background: #F2F3F4;
+    width: 100%;
+}
+
+.c-item .actions .action-items {
+    text-align: center;
+    padding: 8px 0 0 20px;
+}
+
+.c-item .actions .action-items a {
+    color: #666666;
+}
+
+.c-item .actions .action-items a:hover {
+    color: #EF4A23;
+}
+
+.pc-info .c-item .actions {
+    padding-top: 22px;
+}
+
+/*----------------------------------------------- choose products --------------------------------------*/
+.top-bar .actions {
+    display: flex;
+}
+
+.top-bar .search {
+    background: #f1f3f5;
+    border-radius: 3px;
+    position: relative;
+    padding: 1px;
+    display: flex;
+}
+
+.top-bar .search input {
+    float: left;
+    height: 28px;
+    border: none;
+    padding: 0 10px;
+    background: none;
+    outline: none;
+}
+
+.top-bar .search i {
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.product-thumb {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.product-thumb .img-holder {
+    flex: 0 0 200px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.product-thumb .product-info {
+    padding: 20px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.product-thumb .product-content-blcok {
+    flex: 1 1 auto;
+}
+
+.product-thumb .product-info h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    height: auto;
+}
+
+.product-thumb .product-name a {
+    color: #111;
+}
+
+.product-thumb .short-description {
+    padding: 0 0 0 14px;
+    flex: 1 1 auto;
+    margin-bottom: 5px;
+}
+
+.product-thumb .short-description li {
+    font-size: 13px;
+    padding: 5px 0;
+    color: #666666;
+    position: relative;
+    line-height: 16px;
+}
+
+.product-thumb .actions {
+    flex: 0 0 95px;
+}
+
+.product-thumb .actions .price {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-thumb .btn {
+    display: block;
+    min-width: 100px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pc-builder-choose-content .pagination-row {
+    padding: 10px 0;
+    margin: 20px 0 50px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.pagination-row .number-of-items {
+    line-height: 34px;
+}
+
+.pc-builder-choose-content .tool-btn i {
+    line-height: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: #111;
+}
+
+@media screen and (max-width: 991px) {
+    .pc-builder-choose-content #content {
+        padding-left: 15px;
+    }
+
+    .pcb-container {
+        margin-bottom: 20px;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .pcb-inner-content {
+        margin: 0;
+    }
+
+    .pcb-top-content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .pcb-top-content .left {
+        padding: 10px 0;
+    }
+
+    .pcb-head {
+        padding: 10px;
+    }
+
+    .pcb-head .trusttech-logo img {
+        height: 38px;
+        margin-left: 0;
+    }
+
+    .pcb-head .actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .pcb-head .action .action-text {
+        display: none;
+    }
+
+    .pcb-head .actions .action {
+        padding: 0 8px;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        height: 42px;
+        width: auto;
+        float: left;
+    }
+
+    .pcb-head .actions .pcb-button {
+        margin-left: 10px;
+        padding: 0 10px;
+        float: right;
+        white-space: nowrap;
+    }
+
+    .pcb-content .c-item .details {
+        flex: 1 1 auto;
+        padding-right: 0px;
+    }
+
+    .pcb-content .c-item.selected .details {
+        border-right: none;
+        max-width: calc(100% - 160px);
+    }
+
+    .pcb-content .c-item {
+        padding: 10px;
+        position: relative;
+    }
+
+    .pcb-content .c-item.selected {
+        flex-wrap: wrap;
+    }
+
+    .c-item .component-name .mark,
+    .c-item.blank .item-price {
+        display: none;
+    }
+
+    .c-item.selected .item-price {
+        padding-right: 0;
+        border-right: none;
+        margin: 28px 0 0;
+        align-items: flex-start;
+    }
+
+    .c-item.selected .actions {
+        position: absolute;
+        right: 7px;
+        top: 7px;
+        padding: 0;
+    }
+
+    .c-item.selected .action-items {
+        padding: 0;
+    }
+
+    .c-item.selected .action-items a {
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .c-item.selected .action-items a .material-icons {
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        color: #444;
+    }
+
+    .c-item .item-price .price {
+        padding-top: 2px;
+    }
+
+    .product-thumb {
+        flex: 1 1 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .product-thumb .img-holder {
+        text-align: center;
+        flex: 0 0 100%;
+    }
+
+    .product-thumb .product-info {
+        display: block;
+        padding: 0 20px 20px;
+    }
+
+    .product-thumb .product-content-blcok {
+        padding-right: 0;
+    }
+
+    .product-thumb .actions {
+        padding: 10px 0 0;
+        text-align: left;
+    }
+
+}
+
+/* -------------- print page */
+
+.wrapper-pcb {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.wrapper-pcb .top-area {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0;
+    /* padding: 20px 0; */
+}
+
+.wrapper-pcb .logo {
+    margin-right: 40px
+}
+
+.wrapper-pcb .company-info h1,
+.wrapper-pcb .company-info h2 {
+    color: #EF4A26 !important;
+    line-height: normal !important;
+    font-size: 28px !important;
+}
+
+.wrapper-pcb .address {
+    border-top: 2px solid #EF4A26;
+    margin-top: 4px;
+    line-height: 24px
+}
+
+.wrapper-pcb table {
+    width: 100%;
+    max-width: 99%;
+    border-collapse: collapse
+}
+
+.wrapper-pcb table>tbody>tr>td {
+    padding: 20px;
+    border-right: 1px solid #333
+}
+
+.wrapper-pcb table>tbody>tr>td:last-child {
+    border: 0
+}
+
+.wrapper-pcb .component-info {
+    background: #EF4A26;
+    color: #fff;
+    border: 1px solid #EF4A26
+}
+
+.wrapper-pcb tr.details {
+    border: 1px solid #333
+}
+
+.wrapper-pcb .total-amount .amount-label {
+    text-align: right
+}
+
+@media screen and (max-width: 799px) {
+    .pcb-w {
+        width: 140px;
+    }
+
+    .wrapper-pcb {
+        width: auto;
+        text-align: start;
+    }
+
+    .wrapper-pcb .company-info h1,
+    .wrapper-pcb .company-info h2 {
+        font-size: 20px;
+    }
+
+    .wrapper-pcb .top-area {
+        display: block;
+        margin: 20px 30px;
+    }
+
+    .wrapper-pcb .logo {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .wrapper-pcb table>tbody>tr>td {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .pcb-top-content h5 {
+        text-align: center;
+        margin: 5px 0 5px;
+    }
+
+    .product-name {
+        font-size: 12px;
+    }
+
+    .pcb-panel .panel-header {
+        padding: 10px 20px !important;
+    }
+
+    .pcb-panel .panel-header .pcb-h4 {
+        font-size: 16px !important;
+    }
+
+    .pcb-panel h3 {
+        font-size: 16px !important;
+    }
+
+    .pcb-panel .my-pcb-table {
+        text-align: center;
+    }
+
+    .pcb-panel .my-pcb-table thead th {
+        white-space: normal;
+        padding: 10px 4px;
+        font-size: 12px;
+    }
+
+    .pcb-panel .my-pcb-table td {
+        padding: 10px 4px;
+        font-size: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .pcb-panel .badge {
+        min-width: 40px;
+        padding: 3px 5px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    .pcb-panel .btn-view {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0px 10px;
+    }
+
+    .pcb-panel .btn-primary {
+        font-size: 11px;
+        line-height: 15px;
+        padding: 5px 5px;
+    }
+
+    .pcb-btn-primary {
+        font-size: 10px !important;
+    }
+
+    .pcb-panel .img-placeholder {
+        width: 50px;
+        height: 50px;
+    }
+
+}

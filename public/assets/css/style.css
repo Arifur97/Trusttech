@@ -1,0 +1,14 @@
+.show-attr {
+    display: block;
+    transition: 0.5ms ease;
+}
+.closed-attr {
+    display: none;
+    transition: 0.5ms ease;
+}
+.specification-inner table tbody tr td, .specification-inner table thead tr td {
+    padding: 10px!important
+}
+.vertical-products-slide .product-info .product-price {
+    font-size: 13px!important;
+}

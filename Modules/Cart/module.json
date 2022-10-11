@@ -1,0 +1,10 @@
+{
+    "name": "Cart",
+    "alias": "cart",
+    "description": "The TrustTech Cart Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Cart\\Providers\\CartServiceProvider",
+        "Modules\\Cart\\Providers\\EventServiceProvider"
+    ]
+}

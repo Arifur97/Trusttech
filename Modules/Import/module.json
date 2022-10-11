@@ -1,0 +1,9 @@
+{
+    "name": "Import",
+    "alias": "import",
+    "description": "The TrustTech Import Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Import\\Providers\\ImportServiceProvider"
+    ]
+}

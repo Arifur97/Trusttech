@@ -1,0 +1,9 @@
+{
+    "name": "Report",
+    "alias": "report",
+    "description": "The TrustTech Report Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Report\\Providers\\ReportServiceProvider"
+    ]
+}
